@@ -160,7 +160,6 @@ p {
 header {
   display: flex;
   flex-direction: column;
-  /* height: 200px; */
 }
 
 header div {
@@ -307,4 +306,65 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+section.about-top-content {
+  padding: 20px;
+  border-bottom: 2px dashed black;
+}
+
+section.about-top-content h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+section.about-middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+section.about-middle-content div {
+  width: 350px;
+  height: 450px;
+  margin: 30px 20px;
+  border-bottom: 2px dashed black;
+}
+
+section.about-middle-content img {
+  width: 100%;
+}
+
+section.about-middle-content h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+section.about-middle-content button {
+  margin: 10px 0;
+  padding: 10px 30px;
+  background: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+section.about-middle-content button:hover {
+  background: black;
+  color: white;
+}
+
+section.about-bottom-content {
+  padding: 0px 30px;
+}
+
+section.about-bottom-content h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+section.about-bottom-content p {
+  margin: 30px 0;
 }
